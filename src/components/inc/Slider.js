@@ -13,15 +13,15 @@ function Slider() {
                 <div class="carousel-item active">
                     <img src={Slide1} class="d-block w-100" alt="..." />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5>Green Acres</h5>
+                        <p>Grow it like you mean it</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src={Slide2} class="d-block w-100" alt="..." />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                        <h5>Green Acres</h5>
+                        <p>Grow it like you mean it</p>
                     </div>
                 </div>
             </div>

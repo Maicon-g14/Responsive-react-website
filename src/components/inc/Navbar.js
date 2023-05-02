@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
-        <div className='navbar-dark bg-dark shadow'>
+        <div data-bs-theme="dark" className='bg-dark shadow'>
             <div className='container'>
                 <div className='row'>
                     <div className='col-md-12'>
                         <nav className='navbar navbar-expand-lg'>
                             <div className='container-fluid'>
-                                <Link to='/' className='navbar-brand'>Responsive Website</Link>
+                                <Link to='/' className='navbar-brand'>Green Acres</Link>
                                 
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon" />
@@ -23,6 +23,12 @@ function Navbar() {
                                         </li>
                                         <li class="nav-item">
                                             <Link to='/about' className='nav-link active'>About</Link>
+                                        </li>
+                                        <li class="nav-item">
+                                            <Link to='/' className='nav-link active'>Buy</Link>
+                                        </li>
+                                        <li class="nav-item">
+                                            <Link to='/' className='nav-link active'>Blog</Link>
                                         </li>
                                         <li class="nav-item">
                                             <Link to='/contact' className='nav-link active'>Contact us</Link>
