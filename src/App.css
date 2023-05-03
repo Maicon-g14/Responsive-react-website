@@ -27,3 +27,13 @@ p{
 .footer a:hover{
   color: gray;
 }
+.footer-info div, 
+.footer-info p {
+  font-size: 13px;
+}
+.footer-text{
+  font-size: 12px;
+}
+.footer-logo img{
+  max-width: 250px;
+}

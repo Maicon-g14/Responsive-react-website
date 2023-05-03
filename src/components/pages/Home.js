@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Slider from '../inc/Slider';
 import VMC from './inc/Vmc';
-import Soil from '../images/soil.png'
-import Seeds from '../images/seeds.png'
-import Tools from '../images/tools.png'
+import Soil from '../images/soil.png';
+import Seeds from '../images/seeds.png';
+import Tools from '../images/tools.png';
 
 function Home() {
     return (
