@@ -14,7 +14,8 @@ function Slider() {
                     <img src={Slide1} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
                         <h5>Green Acres</h5>
-                        <p>Grow it like you mean it</p>
+                        <span>Gardening and Supplies</span>
+                        <p className="text-white">Green Dreams</p>
                     </div>
                 </div>
                 <div className="carousel-item">

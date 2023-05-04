@@ -4,7 +4,7 @@ import VMC from './inc/Vmc';
 function About() {
     return (
         <div>
-            <section className='py-4 bg-info'>
+            <section className='py-3 bg-info'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-4 my-auto'>

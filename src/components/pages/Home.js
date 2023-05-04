@@ -5,6 +5,7 @@ import VMC from './inc/Vmc';
 import Soil from '../images/soil.png';
 import Seeds from '../images/seeds.png';
 import Tools from '../images/tools.png';
+import Vegetables from '../images/vegetables.png';
 
 function Home() {
     return (
@@ -14,9 +15,11 @@ function Home() {
             <section className='section'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-md-12 mb-5 text-center'>
-                            <h3 className='main-heading'>Gardening</h3>
+                        <div className='col-md-12 mb-5'>
+                            <h3 className='main-heading text-center'>Gardening</h3>
                             <div className='underline mx-auto'></div>
+                        </div>
+                        <div className='container col-md-5 mb-5'>
                             <p>
                                 Gardening is a wonderful hobby that can be enjoyed by people of all ages. 
                                 Whether you have a small balcony or a sprawling backyard, there's always 
@@ -52,6 +55,9 @@ function Home() {
                                 you'll enjoy for years to come.
                             </p>
                             <Link to='/about' className='btn btn-warning shadow'> Read More </Link>
+                        </div>
+                        <div className='container col-md-5'>
+                            <img src={Vegetables} className='img-fluid' alt='Vegetable - Green Acres' />
                         </div>
                     </div>
                 </div>

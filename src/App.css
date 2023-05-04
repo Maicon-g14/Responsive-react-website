@@ -42,3 +42,7 @@ p{
 .navbar-brand{
   max-width: 4rem;
 }
+.carousel-inner img{
+  max-height: 350px;
+  object-fit: cover;
+}
