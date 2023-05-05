@@ -31,7 +31,12 @@ function About() {
                         should have the opportunity to enjoy the many benefits of growing their own 
                         plants. That's why we offer a wide variety of seeds and seedlings, including 
                         ornamental plants, herbs, vegetables, and fruits.
-                    </p><p>
+                    </p>
+                </div>
+            </section>
+            <section className='section border-bottom'>
+                <div className='container'>
+                    <p>
                         Our team consists of experienced gardeners who are always happy to share 
                         their knowledge and offer advice to help you achieve your gardening goals. 
                         We also believe in responsible and sustainable practices, from the way we 

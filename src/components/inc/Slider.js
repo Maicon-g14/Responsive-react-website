@@ -1,6 +1,7 @@
 import React from "react";
 import Slide1 from "../images/slide1.png";
 import Slide2 from "../images/slide2.png";
+import Logo from "../images/green-acres-logo.png";
 
 function Slider() {
     return (
@@ -21,8 +22,7 @@ function Slider() {
                 <div className="carousel-item">
                     <img src={Slide2} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>Green Acres</h5>
-                        <p>Grow it like you mean it</p>
+                        <img src={Logo} className="d-block w-100" alt="..." />
                     </div>
                 </div>
             </div>
