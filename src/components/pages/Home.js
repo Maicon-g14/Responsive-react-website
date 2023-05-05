@@ -13,13 +13,13 @@ function Home() {
             <Slider />
 
             <section className='section'>
-                <div className='container'>
-                    <div className='row'>
+                <div className='container-fluid'>
+                    <div className='row justify-content-end'>
                         <div className='col-md-12 mb-5'>
                             <h3 className='main-heading text-center'>Gardening</h3>
                             <div className='underline mx-auto'></div>
                         </div>
-                        <div className='container col-md-5 mb-5'>
+                        <div className='container col-md-5 mb-5 '>
                             <p>
                                 Gardening is a wonderful hobby that can be enjoyed by people of all ages. 
                                 Whether you have a small balcony or a sprawling backyard, there's always 
@@ -56,7 +56,8 @@ function Home() {
                             </p>
                             <Link to='/about' className='btn btn-warning shadow'> Read More </Link>
                         </div>
-                        <div className='container col-md-5'>
+                        
+                        <div className='section-img container col-md-5 text-bg-primary '>
                             <img src={Vegetables} className='img-fluid' alt='Vegetable - Green Acres' />
                         </div>
                     </div>

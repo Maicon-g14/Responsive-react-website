@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; 
-import Logo from "../images/green-acres-favicon2.png";
+import Logo from "../images/navbar-logo.png";
 
 
 function Navbar() {
