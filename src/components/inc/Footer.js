@@ -28,9 +28,9 @@ function Footer() {
                 <div className="footer-info col-md-3 px-5 mb-5">
                     <h6>Contact Information</h6>
                     <hr />
-                    <div><p className="text-white mb-1">Av. Greenac, 1234 - 12. São Paulo-SP</p></div>
-                    <div><p className="text-white mb-1">+55 (11) 0000-0000</p></div>
-                    <div><p className="text-white mb-1">+55 (11) 9 00000-0000</p></div>
+                    <div><p className="text-white mb-1">Av. No Name, 1234 - São Paulo-SP</p></div>
+                    <div><p className="text-white mb-1">+55 (11) 3000-0000</p></div>
+                    <div><p className="text-white mb-1">+55 (11) 9 9000-0000</p></div>
                     <div><p className="text-white mb-1">contact@greenacres.com</p></div>
                 </div>
                 <div className="footer-logo col-md-3 px-5 mb-4 text-center">

@@ -1,6 +1,6 @@
 import React from "react";
-import Slide1 from "../images/slide1.png";
-import Slide2 from "../images/slide2.png";
+import Slide1 from "../images/landscape.png";
+import Slide2 from "../images/rabbit.png";
 import Logo from "../images/green-acres-logo.png";
 
 function Slider() {
@@ -13,16 +13,16 @@ function Slider() {
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img src={Slide1} className="d-block w-100" alt="..." />
-                    <div className="carousel-caption d-none d-md-block">
-                        <h5>Green Acres</h5>
-                        <span>Gardening and Supplies</span>
-                        <p className="text-white">Green Dreams</p>
+                    <div className="d-block overlay"></div>
+                    <div className="d-block carousel-caption">
+                        <img src={Logo} className="img-fluid d-block m-auto logo" alt="..." />
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img src={Slide2} className="d-block w-100" alt="..." />
-                    <div className="carousel-caption d-none d-md-block">
-                        <img src={Logo} className="d-block w-100" alt="..." />
+                    <div className="d-block overlay"></div>
+                    <div className="d-block carousel-caption">
+                        <img src={Logo} className="d-block m-auto logo" alt="..." />
                     </div>
                 </div>
             </div>
