@@ -1,4 +1,4 @@
-# Responsive Website - Green Acres - Gandening and Tools
+# Green Acres - Gandening and Tools
 
 A fully responsible React JS website made with bootstrap 5 departing from Create React App.
 
