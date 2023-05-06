@@ -6,7 +6,7 @@ import VMC from './inc/Vmc';
 import Section1 from '../images/hedgehog.png';
 import Section2 from '../images/plants.png';
 import Section3 from '../images/vegetables.png';
-import Service1 from '../images/soil.png';
+import Service1 from '../images/plant.png';
 import Service2 from '../images/seeds.png';
 import Service3 from '../images/tools.png';
 
@@ -124,38 +124,50 @@ function Home() {
                             <div className='underline mx-auto'></div>
                         </div>
 
-                        <div className='col-md-4'>
+                        <div className='col-md-4 my-2'>
                             <div className='card shadow'>
                                 <img src={Service1} className='w-100 border-bottom' alt='Services' />
-                                <div className='card-body'>
+                                <div className='card-body p-4'>
                                     <h6>Soil Fertilizers</h6>
-                                    <div className='underline'></div>
-                                    <p>texto</p>
-                                    <Link to='services' className=''>Read More</Link>
+                                    <div className='underline mb-3'></div>
+                                    <p>
+                                        Unlock the full potential of your plants with our premium fertilizers, 
+                                        specially formulated for healthy and abundant growth.
+                                    </p>
+                                    <Link to='services' className=''>Buy Online</Link>
                                 </div>
                             </div>
                         </div>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 my-2'>
                             <div className='card shadow'>
                                 <img src={Service2} className='w-100 border-bottom' alt='Services' />
-                                <div className='card-body'>
+                                <div className='card-body p-4'>
                                     <h6>Seeds</h6>
-                                    <div className='underline'></div>
-                                    <p>texto</p>
-                                    <Link to='services' className=''>Read More</Link>
+                                    <div className='underline mb-3'></div>
+                                    <p>
+                                        Experience the joy of growing your own plants with our premium seeds, 
+                                        carefully selected for exceptional quality and variety.
+                                    </p>
+                                    <Link to='services' className=''>Explore Our Selection</Link>
                                 </div>
                             </div>
                         </div>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 my-2'>
                             <div className='card shadow'>
                                 <img src={Service3} className='w-100 border-bottom' alt='Services' />
-                                <div className='card-body'>
+                                <div className='card-body p-4'>
                                     <h6>Gardening Tools</h6>
-                                    <div className='underline'></div>
-                                    <p>texto</p>
-                                    <Link to='services' className=''>Read More</Link>
+                                    <div className='underline mb-3'></div>
+                                    <p>
+                                        Transform your gardening experience with our exceptional high-quality tools, 
+                                        designed for comfort, efficiency, and lasting durability.
+                                    </p>
+                                    <Link to='services' className=''>Shop Now</Link>
                                 </div>
                             </div>
+                        </div>
+                        <div className='col-md-12 mt-5 text-center'>
+                            <Link to='/' className='btn btn-outline-primary mt-3 mb-5'> Start Shopping </Link>
                         </div>
                     </div>
                 </div>
