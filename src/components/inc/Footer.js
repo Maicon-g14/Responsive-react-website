@@ -4,7 +4,7 @@ import Logo from "../images/green-acres-logo.png";
 
 
 function Footer() {
-    
+
     const about = () => {
         return <>
             <h6>Dream Green</h6>
@@ -27,8 +27,8 @@ function Footer() {
 
             <div><Link to='/'>Home</Link></div>
             <div><Link to='/about'>About</Link></div>
-            <div><Link to='/'>Buy</Link></div>
-            <div><Link to='/'>Blog</Link></div>
+            <div><Link to='/buy'>Buy</Link></div>
+            <div><Link to='/blog'>Blog</Link></div>
             <div><Link to='/contact'>Contact</Link></div>
         </>;
     }

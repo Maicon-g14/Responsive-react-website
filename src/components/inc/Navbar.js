@@ -4,7 +4,7 @@ import Logo from "../images/navbar-logo.png";
 
 
 function Navbar() {
-    
+
     const toggler = () => {
         return (
             <button 
@@ -44,11 +44,11 @@ function Navbar() {
                         </li>
 
                         <li className="nav-item">
-                            <Link to='/' className='nav-link active'>Buy</Link>
+                            <Link to='/buy' className='nav-link active'>Buy</Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link to='/' className='nav-link active'>Blog</Link>
+                            <Link to='/blug' className='nav-link active'>Blog</Link>
                         </li>
 
                         <li className="nav-item">

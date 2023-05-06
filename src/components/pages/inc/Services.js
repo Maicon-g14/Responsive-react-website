@@ -25,7 +25,7 @@ function Services() {
                             title: 'Soil Fertilizers', 
                             text: 'Unlock the full potential of your plants with our premium fertilizers, specially formulated for healthy and abundant growth.' 
                         }}
-                        link={{ title: 'Buy Online', to: '/' }}
+                        link={{ title: 'Buy Online', to: '/buy' }}
                     />
                     
                     <Card img={{ src: Service2, alt: 'Rice Seeds' }}
@@ -33,7 +33,7 @@ function Services() {
                             title: 'Seeds', 
                             text: 'Experience the joy of growing your own plants with our premium seeds, carefully selected for exceptional quality and variety.' 
                         }}
-                        link={{ title: 'Explore Our Selection', to: '/' }}
+                        link={{ title: 'Explore Our Selection', to: '/buy' }}
                     />
 
                     <Card 
@@ -42,13 +42,13 @@ function Services() {
                             title: 'Gardening Tools', 
                             text: 'Transform your gardening experience with our exceptional high-quality tools, designed for comfort, efficiency, and lasting durability.' 
                         }}
-                        link={{ title: 'Shop Now', to: '/' }}
+                        link={{ title: 'Shop Now', to: '/buy' }}
                     />
                     
                     <div className='col-md-12 mt-4 text-center'>
-                        <Link to='/' className='btn btn-outline-primary mt-3 mb-5'> Start Shopping </Link>
+                        <Link to='/buy' className='btn btn-outline-primary mt-3 mb-5'> Start Shopping </Link>
                     </div>
-                    
+
                 </div>
             </div>
         </section>

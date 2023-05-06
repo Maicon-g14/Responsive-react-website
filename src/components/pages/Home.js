@@ -13,8 +13,8 @@ function Home() {
     let [expand, toggleExpand] = useState(false);
     
 
-    const handleClickScroll = location => {
-        const element = document.getElementById(location);
+    const handleClickScroll = elementId => {
+        const element = document.getElementById(elementId);
         if (element) {
             element.scrollIntoView();
         }
