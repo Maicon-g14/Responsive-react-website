@@ -6,6 +6,8 @@ import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from "./components/inc/Footer";
+import InvalidPage from "./components/utilities/InvalidPage";
+
 
 function App() {
   return (
@@ -14,12 +16,16 @@ function App() {
         <Navbar />
 
         <Routes>
+
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='*' element={<InvalidPage />} />
+
         </Routes>
         
         <Footer />
+
       </div>
     </Router>
   );
